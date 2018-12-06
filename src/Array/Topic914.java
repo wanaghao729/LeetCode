@@ -3,6 +3,11 @@ package Array;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 914.对数组中的重复数进行分组
+ * 例：[1,1,1,2,2,2,3,3]这个数组是没法分的[1,1,1][2,2,2][3,3]每个组要保证数目相同
+ * [1,1,1,2,2,2,3,3,3]这个组是可以的[1,1,1][2,2,2][3,3,3]
+ */
 public class Topic914 {
 
     public boolean hasGroupsSizeX(int[] deck) {
