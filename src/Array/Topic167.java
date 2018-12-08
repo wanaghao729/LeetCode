@@ -3,6 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
+ * 和leetcode第一道题目类似，那个题目没指名A有序
  *给定整型数组A(数组内元素升序排列)和目标数值target
  * 返回A中元素相加等于target的位置
  * numbers = [2,7,11,15], target = 9
