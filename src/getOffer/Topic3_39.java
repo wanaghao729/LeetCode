@@ -1,7 +1,11 @@
 package getOffer;
 
 /**
+ * 找重复数字基本两种方法：
+ * 1、先排序--时间复杂度O(nlogn),空间复杂度O(1)
+ * 2、哈希--时间复杂度O(n),空间复杂度O(n)
  * 《剑指Offer》p39页：找出数组中的重复数字
+ * 时间复杂度为O(n),空间复杂度为O(1)
  */
 public class Topic3_39 {
     int duplicate(int[] numbers) {
