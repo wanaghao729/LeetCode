@@ -8,7 +8,7 @@ package getOffer;
  * 时间复杂度为O(n),空间复杂度为O(1)
  */
 public class Topic3_39 {
-    int duplicate(int[] numbers) {
+    public int duplicate(int[] numbers) {
         int duplicate_num = -1;
         if (numbers==null || numbers.length<0) {
             return duplicate_num;
