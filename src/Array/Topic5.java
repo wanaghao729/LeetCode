@@ -18,6 +18,7 @@ public class Topic5 {
     private int low = 0;
     private int maxlen = 0;
     public String longestPalindrome(String s) {
+        //单个字符直接是回文字符串
         if (s.length() < 2)
             return s;
         for (int i  = 0; i < s.length()-1; i++) {

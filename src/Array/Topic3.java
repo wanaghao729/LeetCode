@@ -42,6 +42,6 @@ public class Topic3 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Topic3().lengthOfLongestSubstring("bbbbbb"));
+        System.out.println(new Topic3().lengthOfLongestSubstring("tmsmfdut"));
     }
 }

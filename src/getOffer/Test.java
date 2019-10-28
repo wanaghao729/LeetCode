@@ -42,5 +42,6 @@ public class Test {
         t2.start();
         t1.join();
         t2.join();
+        System.out.println(0.6332);
     }
 }
