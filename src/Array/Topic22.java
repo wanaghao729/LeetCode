@@ -26,7 +26,7 @@ public class Topic22 {
         } else
             return null;
     }
-
+//    回溯法？
     private void backtrack(List<String> list, String str, int open, int close, int max) {
         if (str.length() == max * 2) {
             list.add(str);
