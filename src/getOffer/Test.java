@@ -1,5 +1,7 @@
 package src.getOffer;
 
+import java.util.PriorityQueue;
+
 public class Test {
     private int value = 1;
     private synchronized void printOdd() {
@@ -33,6 +35,12 @@ public class Test {
     }
 
     public static void main(String[] args) throws InterruptedException{
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.add(3);
+        pq.add(2);
+        System.out.println(pq.peek());
+        pq.add(1);
+        System.out.println(pq.peek());
         System.out.println(2&0x1);
         System.out.println(3&0x1);
         Test t = new Test();
