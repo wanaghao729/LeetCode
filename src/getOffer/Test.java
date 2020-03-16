@@ -35,6 +35,7 @@ public class Test {
     }
 
     public static void main(String[] args) throws InterruptedException{
+
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.add(3);
         pq.add(2);
