@@ -16,6 +16,6 @@ public class Topic06 {
             if (right - left == 1) {
 
             }
-        }
+        }return 1;
     }
 }
