@@ -30,7 +30,8 @@ import java.util.Stack;
  *  1
  * Output: 3
  * Follow up:
- * What if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently? How would you optimize the kthSmallest routine?
+ * What if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently?
+ * How would you optimize the kthSmallest routine?
  * 相似问题：94 98 230
  */
 public class Topic230 {
