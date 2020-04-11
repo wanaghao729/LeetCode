@@ -22,6 +22,7 @@ public class Topic5 {
         if (s.length() < 2)
             return s;
         for (int i  = 0; i < s.length()-1; i++) {
+            // length-i < maxlen / 2就没有必要再往下
             if (s.length() - i < maxlen / 2)
                 break;
             extendPalindrome(s, i, i);

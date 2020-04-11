@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 /**
  *You are given two non-empty linked lists representing two non-negative integers.
@@ -31,8 +31,15 @@ public class Topic2 {
                 sum += c2.val;
                 c2 = c2.next;
             }
+            // 逆序输出
             d.next = new ListNode(sum % 10);
             d = d.next;
+
+            // 顺序输出
+//            d = sentinel.next;
+//            sentinel.next = new ListNode((sum % 10));
+//            sentinel.next.next = d;
+
         }
         if (sum / 10 == 1)
             d.next = new ListNode(1);
@@ -54,13 +61,5 @@ public class Topic2 {
             System.out.println(tmp.val);
             tmp = tmp.next;
         }
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
     }
 }
