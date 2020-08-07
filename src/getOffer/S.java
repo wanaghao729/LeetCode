@@ -14,6 +14,6 @@ public class S extends F{
 
     public static void main(String[] args) {
         S s = new S();
-        S ss = (S)null.p();
+//        S ss = (S)null.p();
     }
 }

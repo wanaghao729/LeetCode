@@ -1,4 +1,4 @@
-package Array;
+package src.Array;
 
 /**
  * 难度:easy(Are you sure??!!)
